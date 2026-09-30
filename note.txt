@@ -1,0 +1,1 @@
+Viết linearSearch trả về tất cả index tìm thấy (không chỉ cái đầu tiên) 
