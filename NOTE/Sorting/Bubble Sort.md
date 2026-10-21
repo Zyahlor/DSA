@@ -60,6 +60,16 @@ void bubble_sort(int a[],int n){
 		}
 	}
 }
+
+void NoiBot(int a[], int N)
+{
+ int d = 0;
+ for (int i = 0; i <N - 1; i++)
+ for (int j = N-1; j >i; j--)
+ if (a[j]<a[j-1])
+ HoanVi(a[j], a[j-1]);
+
+}
 ```
  **Giải thích:**
  - for (int i = 0; i < n - 1; i++) => số lượt sắp xếp

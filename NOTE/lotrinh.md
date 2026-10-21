@@ -28,9 +28,9 @@
 - [x] [[binarysearch]]
 
 ### 2.3. [[Sorting]]
-- [ ] [[Bubble Sort]]
-- [ ] [[selection_sort]]
-- [ ] Insertion Sort
+- [x] [[Bubble Sort]] ✅ 2026-10-11
+- [x] [[selection_sort]] ✅ 2026-10-11
+- [ ] [[ Insertion Sort]]
 - [ ] Merge Sort
 - [ ] Quick Sort
 
@@ -81,9 +81,6 @@
 
 ### Progress hiện tại
 
-Array → 🔄 Đang luyện
-
-Searching → ⏳ Chưa học
 
 Sorting → ⏳ Chưa học
 
