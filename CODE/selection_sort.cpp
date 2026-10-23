@@ -1,19 +1,18 @@
-#include <cstdlib>
-#include <ctime>
 #include <iostream>
+#include "../thuvien/goiham.h"
 using namespace std;
-void nhap(int a[], int n) {
-  srand(time(0));
-  for (int i = 0; i < n; i++) {
-    a[i] = rand() % 20;
-  }
-}
-void xuat(int a[], int n) {
-  for (int i = 0; i < n; i++) {
-    cout << "[" << a[i] << "] ";
-  }
-  cout << endl;
-}
+// void nhap(int a[], int n) {
+//   srand(time(0));
+//   for (int i = 0; i < n; i++) {
+//     a[i] = rand() % 20;
+//   }
+// }
+// void xuat(int a[], int n) {
+//   for (int i = 0; i < n; i++) {
+//     cout << "[" << a[i] << "] ";
+//   }
+//   cout << endl;
+// }
 void chontt(int a[], int n, int &ss, int &pg) {
   for (int i = 0; i < n - 1; i++) {
     int min = i;
@@ -24,7 +23,7 @@ void chontt(int a[], int n, int &ss, int &pg) {
         pg++;
       }
     }
-    swap(a[i], a[min]);
+    my_swap(&min ,&min );
     pg += 4;
   }
 }
