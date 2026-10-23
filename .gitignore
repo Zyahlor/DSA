@@ -1,5 +1,6 @@
 .obsidian/
 # === Compiled binaries ===
+th*.cpp
 *.exe
 *.out
 *.o
