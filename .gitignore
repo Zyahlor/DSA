@@ -1,6 +1,8 @@
+test.*
+th*.cpp
 .obsidian/
 # === Compiled binaries ===
-th*.cpp
+
 *.exe
 *.out
 *.o
